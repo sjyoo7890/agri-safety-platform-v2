@@ -1,0 +1,16 @@
+{
+  "name": "agri-safety-platform",
+  "version": "0.1.0",
+  "private": true,
+  "description": "지능형 농작업 안전관리 플랫폼",
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run start:dev",
+    "dev:ai": "cd ai-service && python main.py",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && npm run build",
+    "infra:up": "docker compose up -d",
+    "infra:down": "docker compose down",
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install"
+  }
+}

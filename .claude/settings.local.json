@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(test:*)",
+      "Bash(wc:*)",
+      "Bash(find:*)",
+      "Bash(for dir in \"C:/Users/user0313/Dropbox/1. Safety Platform/agri-safety-platform/backend/src/modules\"/*/)",
+      "Bash(do basename \"$dir\")",
+      "Bash(done)"
+    ]
+  }
+}
